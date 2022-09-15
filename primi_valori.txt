@@ -1,0 +1,23 @@
+ For problem example the score is :  21
+ For problem b the score is :  5813900
+ For problem c the score is :  1480105
+ For problem d the score is :  5028465
+ For problem e the score is :  3329952
+ For problem f the score is :  1821627
+ In the end, the total score is  17474070
+
+
+
+Time Taken 0.0
+ For problem example the score is :  21
+Time Taken 0.6756136417388916
+ For problem b the score is :  5813900
+Time Taken 36.24532437324524
+ For problem c the score is :  5689822
+Time Taken 6.803157567977905
+ For problem e the score is :  5003279
+Time Taken 1.471337080001831
+ For the problem f  the score is :  5302835
+Time Taken 521.3948211669922
+ For problem d the score is :  5028465
+ In the end, the total score is  26838322
