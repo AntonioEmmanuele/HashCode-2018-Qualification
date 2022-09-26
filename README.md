@@ -4,6 +4,7 @@ Solved with a greedy:
 Algo:
 
 remaining_time=deadline
+
 score=0
 Lk=[]
 remaining_libs=libs
