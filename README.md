@@ -3,9 +3,8 @@ Solved with a greedy:
 
 Algo:
 
-remaining_time=deadline
-
-score=0
+remaining_time=deadline. 
+score=0. 
 Lk=[]
 remaining_libs=libs
 loop_value,loop_best_value,best_lib=0,-1,0 
