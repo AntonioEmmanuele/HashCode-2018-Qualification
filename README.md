@@ -3,32 +3,14 @@ Solved with a greedy:
 
 Algo:
 
-remaining_time=deadline
+Until there is time for another lib: <br\>
+      Select the lib with best Value <br\>
+      Actual Time+=Best Value signup <br\>
+      Update score with the books not yet sended or scheduled by previous libs <br\>
+      
+The value of a lib,at a time T, is calculated with a  ratio: <br\>
+Numerator: Sum of the best books score, limited to the number of books that can be sended <br\>
+Denominator: Library Signup time <br\>
 
-score=0 <br/>
-Lk=[]<br/>
-remaining_libs=libs<br/>
-loop_value,loop_best_value,best_lib=0,-1,0<br/>
-while argminsub(libsSignupTime of remaining_libs)>remaining_time:<br/>
-		for lib in remaining_libs:<br/>
-		if libsSignupTime[lib]>remaining_time<br/>
-			remove(remaining_libs,lib)<br/>
-		else <br/>
-			loop_value,NumBooks=calcScore(booksPerLibrary[lib],signupTime[lib],throughputs[lib],booksScore,deadline,remaining_timeLk) <br/>
-			if loop_value>loop_best_value:  <br/>
-				loop_best_value=loop_value <br/>
-				best_lib=lib <br/>
-	if loop_best_value==0:<br/>
-		break
-	remove(remaining_lib, best_lib)<br/>
-            removed=0 <br/>
-	for book in booksPerLib[best_lib]:  #also the calculation is different <br/>
-		if not book in Lk:  <br/>
-			append(Lk,book)<br/>
-			score+=booksScore[books]<br/>
-			removed++ <br/>
-		if removed==MaxBooks:<br/>
-			break<br/>
-	remaining_time-=signupTime[best_lib] <br/>
-
-
+Number Of Books=lib_throuput*(deadline-(T+signup Time))
+The sumin the Numerator is limited to the books not already sended or scheduled to be sended by previously chosen libs
