@@ -4,7 +4,7 @@ Solved with a greedy:
 Algo:
 
 Until there is time for another lib: <br/>
-emsp Select the lib with best Value <br/>
+ emspSelect the lib with best Value <br/>
       Actual Time+=Best Value signup <br/>
       Update score with the books not yet sended or scheduled by previous libs <br/>
       
