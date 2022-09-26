@@ -3,8 +3,8 @@ Solved with a greedy:
 
 Algo:
 
-Until there is time for another lib: <br/>
-> Select the lib with best Value <br/>
+>Until there is time for another lib: <br/>
+>> Select the lib with best Value <br/>
       Actual Time+=Best Value signup <br/>
       Update score with the books not yet sended or scheduled by previous libs <br/>
       
