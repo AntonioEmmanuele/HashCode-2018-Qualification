@@ -10,7 +10,7 @@ Lk=[]<br/>
 remaining_libs=libs<br/>
 loop_value,loop_best_value,best_lib=0,-1,0<br/>
 while argminsub(libsSignupTime of remaining_libs)>remaining_time:<br/>
-	for lib in remaining_libs:<br/>
+		for lib in remaining_libs:<br/>
 		if libsSignupTime[lib]>remaining_time<br/>
 			remove(remaining_libs,lib)<br/>
 		else <br/>
