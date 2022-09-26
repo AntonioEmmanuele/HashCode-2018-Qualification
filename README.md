@@ -6,7 +6,7 @@ Algo:
 >Until there is time for another lib: <br/>
 >> Select the lib with best Value <br/>
       Actual Time+=Best Value signup <br/>
-      Update score with the books not yet sended or scheduled by previous libs <br/>
+      Update score with the books not yet sended or scheduled to be sended by previous libs <br/>
       
 The value of a lib,at a time T, is calculated with a  ratio: <br/>
 Numerator: Sum of the best books score, limited to the number of books that can be sended <br/>
